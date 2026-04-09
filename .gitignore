@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Training outputs (large, machine-generated)
+logs/
+models/
+*.zip
+*.pkl
+*.mp4
+
+# MuJoCo Menagerie (fetched by setup.sh — not committed)
+mujoco_menagerie/
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
